@@ -11,7 +11,7 @@ end
 def print_first_directors_movie_titles
   nds = directors_database()
   array = []
-  nds.each_key do |name|
+  nds.each do |name, value|
     array << name[:movies][:title]
   end
   array
