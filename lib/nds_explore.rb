@@ -9,4 +9,9 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  array = []
+  nds.each do |name|
+    array << name[:movies][:title]
+  end
+  array
 end
