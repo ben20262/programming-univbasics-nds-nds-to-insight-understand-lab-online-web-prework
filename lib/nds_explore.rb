@@ -10,9 +10,8 @@ end
 
 def print_first_directors_movie_titles
   nds = directors_database()
-  counter = 0
-  while counter < nds.size
-    puts nds[counter][:movies][0][:title]
-    counter += 1
-  end
+  array = []
+  nds[0][:movies].each {|movies|
+    puts movie[:title]
+  }
 end
