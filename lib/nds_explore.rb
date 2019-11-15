@@ -11,5 +11,5 @@ end
 def print_first_directors_movie_titles
   nds = directors_database()
   array = []
-  nds[0][:name][:movies][0][:title]
+  nds[0][:movies][0][:title]
 end
