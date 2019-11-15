@@ -9,7 +9,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  directors_database()
+  nds = directors_database()
   array = []
   nds.each_key do |name|
     array << name[:movies][:title]
