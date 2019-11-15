@@ -14,4 +14,5 @@ def print_first_directors_movie_titles
   while counter < nds.size
     puts nds[counter][:movies][0][:title]
     counter += 1
+  end
 end
