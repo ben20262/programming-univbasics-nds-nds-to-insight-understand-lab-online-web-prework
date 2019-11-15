@@ -14,4 +14,5 @@ def print_first_directors_movie_titles
   nds[0].each do |name, value|
     value[:movies][:title]
   end
+  array
 end
