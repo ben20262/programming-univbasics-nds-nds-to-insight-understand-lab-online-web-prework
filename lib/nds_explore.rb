@@ -11,7 +11,7 @@ end
 def print_first_directors_movie_titles
   nds = directors_database()
   array = []
-  nds[0][:movies].each {|movies|
+  nds[0][:movies].each {|movie|
     puts movie[:title]
   }
 end
